@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&family=Iceberg&family=Nabla&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0px;
+}
+
+body {
+    background-color: #eae4ee;
+    font-family: 'DM Sans', sans-serif;
+}
+
+main {
+    display: flex;
+    flex: 1 2 100px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #fffdfb;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1em;
+    line-height: 1.7rem;
+    color: #44445a;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Nabla', cursive;
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 4.5rem;
+    margin: 25px 0px;
+}
+
+h2 {
+    font-family: 'Iceberg', sans-serif;
+    color: #685680;
+    background-color: #f1eaf5;
+    padding: 18px;
+    border-radius: 10px;
+    margin: 25px 0px 15px;
+}
+
+h3 {
+    font-family: 'Iceberg', sans-serif;
+    color: #486b67;
+    background-color: #e9f2ee;
+    padding: 18px;
+    border-radius: 10px;
+    margin: 25px 0px 15px;
+}
+
+h4 {
+    font-family: 'Iceberg', sans-serif;
+    color: #a16c82;
+    background-color: #f8eaf0;
+    padding: 18px;
+    border-radius: 10px;
+    margin: 25px 0px 15px;
+}
+
+h5 {
+}
+
+h6 {
+}
+
+h7 {
+}
+
+h8 {
+}
+
+ul {
+    list-style: none;
+    background-color: #f6f0f5;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px 0px;
+}
+
+li {
+    line-height: 1.5rem;
+    padding: 18px;
+    margin-bottom: 0px;
+    color: #505477;
+    background-color: #fffdfb;
+    border-radius: 8px;
+}
+
+li strong {
+    font-family: 'Iceberg', sans-serif;
+}
+
+li p {
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+.page-header {
+    text-align: center;
+    padding: 20px;
+    color: #685680;
+}
+
+.page-header p {
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #8e5f7c;
+    margin-bottom: 0px;
+}
+
+.page-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.intro-section {
+    width: 100%;
+}
+
+.life-section {
+    width: 100%;
+}
+
+.future-section {
+    width: 100%;
+}
+
+.question-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.question-card {
+    flex: 1 1 300px;
+}
+
+.art-image {
+    width: 60%;
+    margin: 25px auto;
+    border-radius: 12px;
+}
+
+.blur-image {
+    width: 55%;
+    margin: 15px auto;
+}
+
+.ideal-image {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto 10px;
+    border-radius: 12px;
+}
+
+.future-image {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto 10px;
+    border-radius: 12px;
+}
+
+.violin-image {
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin: 20px auto 10px;
+    border-radius: 12px;
+}
+
+.travel-image {
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin: 20px auto 10px;
+    border-radius: 12px;
+}
+
+.page-footer {
+    font-family: 'Caveat', cursive;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 20px;
+    color: #685680;
+    background-color: #eae4ee;
+}
+
+@media (max-width: 700px) {
+    .question-list {
+        flex-direction: column;
+    }
+
+    main {
+        margin: 20px 10px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+}
